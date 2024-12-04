@@ -1,0 +1,139 @@
+body {font-family: 'Forum';
+    min-width: 320px;}
+
+footer {text-align: center;}
+
+nav {display: flex;
+    margin: 20px auto;
+    padding: 10px;
+    justify-content: center;
+    background-color: #FFE4E1;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.2em;}
+
+nav ul {list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;}
+      
+nav ul li {margin: 0 10px;}
+      
+nav ul li a {color: #000000;
+    text-decoration: none;
+    font-size: 20px;}
+
+nav a.active {font-weight: bold;}
+
+nav a:hover {color: black;}
+
+.company_name {text-align: center;
+    font-size: 40px;}
+
+.main_info {text-align: center;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;}
+      
+p {font-size: 20px;}
+
+.main_info p {font-size: 20px;
+   text-align: left;}
+
+.main_info h3 {font-size: 26px;
+    text-align: left}
+
+.form {display: flex;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 228, 225, 0.5);
+    text-align: left;
+    border-radius: 10px;
+    font-size: 1.2em;
+    width: 50%;}
+
+input[type="text"], input[type="tel"], input[type="email"], input[type="number"] {width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;}
+
+input[type="submit"] {background-color: #FFE4E1;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;}
+
+.container {display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 75%;
+    margin: 50px auto;}
+      
+.product-block {display: inline-block;
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    background-color: rgba(255, 228, 225, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);}
+      
+.product-block img {width: 200px;
+    height: 200px;
+    align-items: center;
+    object-fit: cover;
+    border-radius: 5px;}
+      
+.product-block h3 {margin-top: 10px;
+    font-size: 22px;}
+      
+.product-block p {margin-top: 5px;
+    font-size: 20px;
+    text-align: center;}
+
+.btn {margin-top: 20px;
+	display: flex;	
+	justify-content: center;}
+
+button {padding: 10px;
+    background-color: #FFE4E1;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;}
+
+.main h3 {font-size: 26px;
+    text-align: center;}
+
+.main p {font-size: 20px;
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 40px;}
+
+.float-left {float: left;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    max-width: 25%;}
+
+.back-to-top {display: block;
+    margin: 50px auto;
+    padding: 10px;
+    background-color: #FFE4E1;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 1.2em;}
+
+.hello {text-align: left;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    font-size: 20px;}
